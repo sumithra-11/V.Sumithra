@@ -1,17 +1,21 @@
+imort java.io.*;
 import java.util.*;
-class Solution 
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class solution
 {
-    public static void main(String[] args) 
-    {
-        int i,n,res;
-        Scanner sc=new Scanner(System.in);
-        n=sc.nextInt();
-        for(i=1;i<=10;i++)
-        {
-            res=0;
-            res=n*i;
-            System.out.println((n+" x " +i)+" = " +res);
-        }
-        
-    }
+ public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+ int n,r,s=0;
+ n=sc.nextInt();
+ while(n!=0)
+ {
+  r=m%10;
+  s=(s*10)+r;
+  n=n/10;
+ }
+ System.out.println(s);
+}
 }
